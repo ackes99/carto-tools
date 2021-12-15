@@ -211,7 +211,6 @@ def procesa(dir_paciente, dfResumen, dfTotal, dfRfs, dflistado):
     input_file   = dir_paciente + "\\Sites.txt";
     input_file2  = dir_paciente + "\\VisiTagSessions.txt";    
     output_file   = dir_paciente + '\\..\\' + os.path.basename(os.path.dirname(input_file)) + '.csv';
-    output_file2  = dir_paciente + '\\..\\' + os.path.basename(os.path.dirname(input_file)) + '.txt';    
 
     print("#######################################################")
     print(input_file)
